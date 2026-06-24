@@ -1,6 +1,6 @@
 import React from 'react'
 import Add from './Add'
-import Analytics from './analytics';
+import Analytics from './Analytics';
 import History from './History';
 import Setting from './Setting';
 import Notification from './Notification';
