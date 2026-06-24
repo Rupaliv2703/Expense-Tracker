@@ -1,6 +1,6 @@
 import React from 'react'
 import Add from './components/Add';
-import Analytics from './components/analytics';
+import Analytics from './components/Analytics';
 import History from './components/History';
 import Setting from './components/Setting';
 import Notification from './components/Notification';
@@ -29,6 +29,8 @@ const App = () => {
         <Route path='/add' element={<Add/>} />
         <Route path='history' element={<Home/>} />
         <Route path='/setting' element={<Setting/>} />
+         <Route path='/notification' element={<Notification/>} />
+         <Route path='/history' element={<History/>} />
         </Routes> 
    
     
